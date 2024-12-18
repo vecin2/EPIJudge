@@ -7,10 +7,16 @@ from test_framework.random_sequence_checker import (
     compute_combination_idx, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
 
-
+import random 
 def random_sampling(k: int, A: List[int]) -> None:
-    # TODO - you fill in here.
-    return
+    for index in range(k):
+        print(f"calling with k {k} and index {index}")
+        print(f"computing random betwee {index} and {len(A)-1}")
+        rando_no = random.randint(index,len(A)-1) 
+
+        A[index],A[rando_no] = A[rando_no],A[index]
+
+
 
 
 @enable_executor_hook

@@ -1,0 +1,1 @@
+evince ~/SynologyDrive/Documents/jobHunting/books/EPI/Elements\ of\ Programming\ Interviews\ in\ Python_\ The\ Insiders’\ Guide\ \(\ PDFDrive.com\ \).pdf
